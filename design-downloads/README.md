@@ -7,3 +7,7 @@ Download and extract Print_Designs_Trials.zip for all three projects, or use the
 - Beyond_Power_Badge.zip: approved traced logo recessed 0.60 mm into a 119.50 × 59.92 × 1.90 mm badge, provisional R8 corners, plus corner-fit coupon.
 
 Read included fit and printing notes. Jig is for stationary alignment only; remove before rotation. All physical fits remain untested.
+
+## Rogue flange handle fit
+
+Rogue_Flange_Handle_Fit.zip contains revised45.14,45.64 and46.10 mm straight handle sockets with0.25 mm entrance chamfers, matching quick test rings, STEP/STL files, source and validation reports. Primary trial45.14 for measured44.74 handle. Print test rings first; select smallest comfortable slip fit. Socket floor retained at original depth, outside shape/logos/lower bores preserved. All6 meshes pass watertight, winding, positive volume and height/bed checks. Physical fit untested.
