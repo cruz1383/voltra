@@ -19,3 +19,7 @@ Use Rogue_Flange_Smooth.zip for the latest high-resolution STL exports of the sa
 ## Selected single flange model
 
 Rogue_Flange_Final_45p14.zip contains only the selected smooth45.14mm socket model (STL/STEP), matching fit ring and print/validation notes. Exterior and logos preserved; internal socket revised as described. Physical fit untested.
+
+## Wall consistency print-setting trial
+
+Rogue_Flange_Wall_Consistency_Trial.zip includes an adjusted Bambu Studio project for the uploaded two-model plate (X1 Carbon,0.4 nozzle,Kexcelled Cherry Red PLA), instructions and validation reports. Geometry/placements/object metadata are byte-identical to the upload. Retains user-confirmed filament calibration and support-material setup. Changes only outer-wall speed/acceleration,wall order,Z speed smoothing and active-PLA outer-wall cooling slowdown. Both baseline and trial sliced successfully in Bambu Studio02.08.02.61; estimated plate time approximately3h08m ->3h19m. Physical reduction of the printed band remains untested. Open the3mf as a project and re-slice; do not import geometry only.
