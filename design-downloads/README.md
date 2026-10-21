@@ -15,3 +15,7 @@ Rogue_Flange_Handle_Fit.zip contains revised45.14,45.64 and46.10 mm straight han
 ## Smooth flange mesh update (X1 Carbon, PLA)
 
 Use Rogue_Flange_Smooth.zip for the latest high-resolution STL exports of the same revised socket sizes, with STEP files and fit rings included. Absolute mesh deflection0.005mm replaces size-relative meshing. Measured maximum sloped-facet span reduced from approximately11.25 degrees in the original STL to1.76 degrees. All3 new flange STLs pass watertightness, consistent winding, positive volume and32mm height/on-bed checks. See included X1 Carbon PLA notes for calibration/seam suggestions. Print finish and physical fit remain untested; this addresses model faceting and cannot guarantee removal of every extrusion or motion artifact.
+
+## Selected single flange model
+
+Rogue_Flange_Final_45p14.zip contains only the selected smooth45.14mm socket model (STL/STEP), matching fit ring and print/validation notes. Exterior and logos preserved; internal socket revised as described. Physical fit untested.
