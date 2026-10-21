@@ -11,3 +11,7 @@ Read included fit and printing notes. Jig is for stationary alignment only; remo
 ## Rogue flange handle fit
 
 Rogue_Flange_Handle_Fit.zip contains revised45.14,45.64 and46.10 mm straight handle sockets with0.25 mm entrance chamfers, matching quick test rings, STEP/STL files, source and validation reports. Primary trial45.14 for measured44.74 handle. Print test rings first; select smallest comfortable slip fit. Socket floor retained at original depth, outside shape/logos/lower bores preserved. All6 meshes pass watertight, winding, positive volume and height/bed checks. Physical fit untested.
+
+## Smooth flange mesh update (X1 Carbon, PLA)
+
+Use Rogue_Flange_Smooth.zip for the latest high-resolution STL exports of the same revised socket sizes, with STEP files and fit rings included. Absolute mesh deflection0.005mm replaces size-relative meshing. Measured maximum sloped-facet span reduced from approximately11.25 degrees in the original STL to1.76 degrees. All3 new flange STLs pass watertightness, consistent winding, positive volume and32mm height/on-bed checks. See included X1 Carbon PLA notes for calibration/seam suggestions. Print finish and physical fit remain untested; this addresses model faceting and cannot guarantee removal of every extrusion or motion artifact.
