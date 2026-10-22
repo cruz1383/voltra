@@ -3,7 +3,7 @@
 Download and extract Print_Designs_Trials.zip for all three projects, or use the individual ZIP files.
 
 - Rack_Jig_V2_2.zip: user-requested straight 15 mm-deep cheeks, 75.80 mm inside span, no lip or inward step. Measured75.58 upright leaves0.22 total nominal clearance. Replaces V2/V2.1 halves. Tongue and clip remain within plate thickness; broad outward faces lie on print bed. Local support needed under recessed tongues. Geometry and mesh checks pass; tight physical fit untested. Matching clip included (same geometry as V2.1).
-- TPU_Caps.zip: baseline and two tighter cap variants; six-lobed approximation rather than certified Torx geometry.
+- TPU_Caps_V4_6p35_Stem.zip: current cap width trials3.89/3.94 with6.35 stem and8.78 overall height; corrected hexalobular arcs. Physical fit untested.
 - Beyond_Power_Badge.zip: approved traced logo recessed 0.60 mm into a 119.50 × 59.92 × 1.90 mm badge, provisional R8 corners, plus corner-fit coupon.
 
 Read included fit and printing notes. Jig is for stationary alignment only; remove before rotation. All physical fits remain untested.
@@ -28,6 +28,10 @@ Rogue_Flange_Wall_Consistency_Trial.zip includes an adjusted Bambu Studio projec
 
 Use TPU_Caps_V2_Arc_Profile.zip for the current cable-cover caps. Replaces the earlier shallow sinusoidal profile with12 tangent circular arcs using scaled T20-recess reference proportions. Tip spans3.74/3.79/3.84; baseline valley span approximately2.698, intentionally replacing3.38. Same10.22x2.43 head and6.30 stem length. All3 STL/STEP variants, visual comparison, source attribution and geometry validation included. This is a cosmetic T20-reference plug trial, not a certified driver or exact kit reproduction; physical fit/retention untested.
 
-## Current TPU fit and length trials: V3
+## Previous TPU fit and length trials: V3 (superseded by V4)
 
 TPU_Caps_V3_10mm.zip responds to user feedback that3.84 V2 is slightly looser than the kit original. Provides3.89/3.94 tip spans at requested10.00 overall length (7.57 stem plus2.43 head), plus3.89 short6.30-stem control. Head10.22 and arc proportions retained. Important:7.57 stem exceeds earlier6.51–6.81 available depth, so long variants require depth confirmation; bottoming is not successful retention. All3 parts pass geometry/mesh checks; new fit/length physically untested.
+
+## Current TPU caps: V4, modest length increase
+
+TPU_Caps_V4_6p35_Stem.zip supersedes the long V3 trials. User requested only0.05 added to the original6.30 stem:6.35 stem plus unchanged2.43 head gives8.78 overall.3.89 and3.94 tip-span trials focus on firmer fit than the tested3.84. Same12 tangent circular arcs, same10.22 head diameter. Both parts pass CAD and STL validation; retention/full seating physically untested. The combined Print_Designs_Trials.zip now includes these V4 caps alongside the existing jig and badge.
