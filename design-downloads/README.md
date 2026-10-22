@@ -3,7 +3,7 @@
 Download and extract Print_Designs_Trials.zip for all three projects, or use the individual ZIP files.
 
 - Rack_Jig_V2_2.zip: user-requested straight 15 mm-deep cheeks, 75.80 mm inside span, no lip or inward step. Measured75.58 upright leaves0.22 total nominal clearance. Replaces V2/V2.1 halves. Tongue and clip remain within plate thickness; broad outward faces lie on print bed. Local support needed under recessed tongues. Geometry and mesh checks pass; tight physical fit untested. Matching clip included (same geometry as V2.1).
-- TPU_Caps_V4_6p35_Stem.zip: current cap width trials3.89/3.94 with6.35 stem and8.78 overall height; corrected hexalobular arcs. Physical fit untested.
+- TPU_Cap_3p92_6p35_Stem.zip: current user-selected3.92 tip span,6.35 stem,8.78 overall; same head and hexalobular arc proportions. Fit untested.
 - Beyond_Power_Badge.zip: approved traced logo recessed 0.60 mm into a 119.50 × 59.92 × 1.90 mm badge, provisional R8 corners, plus corner-fit coupon.
 
 Read included fit and printing notes. Jig is for stationary alignment only; remove before rotation. All physical fits remain untested.
@@ -35,3 +35,7 @@ TPU_Caps_V3_10mm.zip responds to user feedback that3.84 V2 is slightly looser th
 ## Current TPU caps: V4, modest length increase
 
 TPU_Caps_V4_6p35_Stem.zip supersedes the long V3 trials. User requested only0.05 added to the original6.30 stem:6.35 stem plus unchanged2.43 head gives8.78 overall.3.89 and3.94 tip-span trials focus on firmer fit than the tested3.84. Same12 tangent circular arcs, same10.22 head diameter. Both parts pass CAD and STL validation; retention/full seating physically untested. The combined Print_Designs_Trials.zip now includes these V4 caps alongside the existing jig and badge.
+
+## Current selected TPU cap:3.92
+
+TPU_Cap_3p92_6p35_Stem.zip contains the user-selected3.92 opposing-tip version, preserving6.35 stem,8.78 overall height,10.22x2.43 head and tangent-arc profile. Validated STL/STEP included; physical fit untested. Combined Print_Designs_Trials.zip now includes this selected cap. V4 variants remain available for reference.
