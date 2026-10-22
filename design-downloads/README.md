@@ -27,3 +27,7 @@ Rogue_Flange_Wall_Consistency_Trial.zip includes an adjusted Bambu Studio projec
 ## TPU cap V2 arc-profile correction
 
 Use TPU_Caps_V2_Arc_Profile.zip for the current cable-cover caps. Replaces the earlier shallow sinusoidal profile with12 tangent circular arcs using scaled T20-recess reference proportions. Tip spans3.74/3.79/3.84; baseline valley span approximately2.698, intentionally replacing3.38. Same10.22x2.43 head and6.30 stem length. All3 STL/STEP variants, visual comparison, source attribution and geometry validation included. This is a cosmetic T20-reference plug trial, not a certified driver or exact kit reproduction; physical fit/retention untested.
+
+## Current TPU fit and length trials: V3
+
+TPU_Caps_V3_Fit_Length_Trials.zip responds to user feedback that3.84 V2 is slightly looser than the kit original. Provides3.89/3.94 tip spans at requested10.25 overall length (7.82 stem plus2.43 head), plus3.89 short6.30-stem control. Head10.22 and arc proportions retained. Important:7.82 stem exceeds earlier6.51–6.81 available depth, so long variants require depth confirmation; bottoming is not successful retention. All3 parts pass geometry/mesh checks; new fit/length physically untested.
