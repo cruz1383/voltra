@@ -30,4 +30,4 @@ Use TPU_Caps_V2_Arc_Profile.zip for the current cable-cover caps. Replaces the e
 
 ## Current TPU fit and length trials: V3
 
-TPU_Caps_V3_Fit_Length_Trials.zip responds to user feedback that3.84 V2 is slightly looser than the kit original. Provides3.89/3.94 tip spans at requested10.25 overall length (7.82 stem plus2.43 head), plus3.89 short6.30-stem control. Head10.22 and arc proportions retained. Important:7.82 stem exceeds earlier6.51–6.81 available depth, so long variants require depth confirmation; bottoming is not successful retention. All3 parts pass geometry/mesh checks; new fit/length physically untested.
+TPU_Caps_V3_10mm.zip responds to user feedback that3.84 V2 is slightly looser than the kit original. Provides3.89/3.94 tip spans at requested10.00 overall length (7.57 stem plus2.43 head), plus3.89 short6.30-stem control. Head10.22 and arc proportions retained. Important:7.57 stem exceeds earlier6.51–6.81 available depth, so long variants require depth confirmation; bottoming is not successful retention. All3 parts pass geometry/mesh checks; new fit/length physically untested.
