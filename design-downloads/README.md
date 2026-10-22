@@ -43,3 +43,7 @@ TPU_Cap_3p92_6p35_Stem.zip contains the user-selected3.92 opposing-tip version, 
 ## Additional TPU trials:3.96 and3.98
 
 TPU_Caps_3p96_3p98_6p35_Stem.zip supplies both requested sizes after the user reported the dried3.94 print was slightly loose. Same6.35 stem,8.78 overall and10.22x2.43 head, with the same scaled hexalobular arc proportions. Both STL/STEP pairs validated; physical fit untested.
+
+## Latest TPU fit trial:4.02
+
+TPU_Cap_4p02_6p35_Stem.zip contains the requested4.02 opposing-tip cap after3.96/3.98 remained slightly loose. Same6.35 stem,8.78 overall,10.22x2.43 head and tangent-arc proportions. STL/STEP validated; physical fit untested.
