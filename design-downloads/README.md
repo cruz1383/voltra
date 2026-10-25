@@ -51,3 +51,7 @@ TPU_Cap_4p02_6p35_Stem.zip contains the requested4.02 opposing-tip cap after3.96
 ## Additional TPU fit trial:4.00
 
 TPU_Cap_4p00_6p35_Stem.zip provides4.00 opposing tips with unchanged6.35 stem,8.78 total and10.22x2.43 head. Same tangent-arc profile;STL/STEP validated. Physical fit untested.
+
+## Apache4800 two-Voltra PETG insert:stage1 fit kit
+
+Apache_4800_Voltra_Fit_Kit.zip contains a preliminary two-row layout and6 small gauges:four3mm-high case perimeter sections plus two6mm-high complete-device envelope band halves. Proposed case footprint452.025x325.025 allows nominal1mm per side against supplied case dimensions;R40 corners are provisional. Device band opening333x111.94 includes approximate329 overall length with handle. All6 parts pass CAD/STL checks and fit individually on X1C. Existing bottom cushion retained;future100mm insert pockets remain open-bottom to avoid hard contact with rear attachment/vents. Full-height insert is not included yet:confirm case taper/perimeter and device clearance using the fit kit first.
