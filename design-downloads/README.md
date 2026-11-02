@@ -1,5 +1,11 @@
 # Printable design trials
 
+## Apache 4800 captured TPU insert — V3.1 correction
+
+Use [Full V3.1 print package](Apache_4800_FULL_V3p1_Captured_TPU_Print_Package.zip) for the current captured-pad design. **Do not print BL or TR from the earlier full V3 ZIP:** one dovetail had only 0.20 mm of material to the split edge. V3.1 relocates the two near-seam tracks in each affected half, giving 10.20 mm rear edge margins.
+
+If you already downloaded the full V3 captured-pad package, use the [BL/TR-only correction](Apache_4800_V3p1_BL_TR_Edge_Margin_Correction.zip). Replace only `PRINT_BL.stl` and `PRINT_TR.stl`. TL, BR, and all TPU STLs are unchanged and may be reused. This patch is for full V3, not older prototypes. Historical downloads below remain available for reference. See the [actual CAD comparison](Apache_4800_V3p1_BL_TR_Edge_Margin_CAD.png).
+
 Download and extract Print_Designs_Trials.zip for all three projects, or use the individual ZIP files.
 
 - Rack_Jig_V2_2.zip: user-requested straight 15 mm-deep cheeks, 75.80 mm inside span, no lip or inward step. Measured75.58 upright leaves0.22 total nominal clearance. Replaces V2/V2.1 halves. Tongue and clip remain within plate thickness; broad outward faces lie on print bed. Local support needed under recessed tongues. Geometry and mesh checks pass; tight physical fit untested. Matching clip included (same geometry as V2.1).
