@@ -1,8 +1,14 @@
 # Printable design trials
 
-## Apache 4800 captured TPU insert — V3.1 correction
+## Apache 4800 full V4 — latest approved print package
 
-Use [Full V3.1 print package](Apache_4800_FULL_V3p1_Captured_TPU_Print_Package.zip) for the current captured-pad design. **Do not print BL or TR from the earlier full V3 ZIP:** one dovetail had only 0.20 mm of material to the split edge. V3.1 relocates the two near-seam tracks in each affected half, giving 10.20 mm rear edge margins.
+Use [Full V4: short liners and fixed ridges](Apache_4800_FULL_V4_Short_Liners_Fixed_Ridges_Print_Package.zip) for the approved latest CAD. It includes all four revised rigid sections, shifted Voltra cavities, fixed side dovetail positions, straight handle TPU pads, enlarged 87 × 73 mm charger cavities, and shortened square/cable-end TPU liners captured by rigid 45° ridges. Existing wire channels remain exposed above the liners.
+
+There are **9 unique STL files; print 20 total parts** using the included quantities. Files are already oriented. All meshes passed closure, winding, bed-fit and geometry overhang checks; printer-specific slicing and full-size physical fit remain unverified. Use the four rigid sections and matching shortened liners from this package. Historical files and concept CAD downloads remain available below.
+
+## Earlier Apache 4800 captured TPU insert — V3.1 correction
+
+The [Full V3.1 print package](Apache_4800_FULL_V3p1_Captured_TPU_Print_Package.zip) is the earlier captured-pad design, superseded by full V4 above. **Do not print BL or TR from the earlier full V3 ZIP:** one dovetail had only 0.20 mm of material to the split edge. V3.1 relocates the two near-seam tracks in each affected half, giving 10.20 mm rear edge margins.
 
 If you already downloaded the full V3 captured-pad package, use the [BL/TR-only correction](Apache_4800_V3p1_BL_TR_Edge_Margin_Correction.zip). Replace only `PRINT_BL.stl` and `PRINT_TR.stl`. TL, BR, and all TPU STLs are unchanged and may be reused. This patch is for full V3, not older prototypes. Historical downloads below remain available for reference. See the [actual CAD comparison](Apache_4800_V3p1_BL_TR_Edge_Margin_CAD.png).
 
