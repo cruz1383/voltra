@@ -1,5 +1,9 @@
 # Printable design trials
 
+## Hisense EN2A27 battery cover — V2 continuous rails
+
+Use [Rebuilt V2 print package](Hisense_EN2A27_Rebuilt_V2_Print_Package.zip) or [V2 STL](Hisense_EN2A27_Rebuilt_V2.stl). This corrects the mistaken rail gaps in V1: both rails are continuous with a small local raised bump. Measured body76.02 ×39.02 mm and nominal2.20 mm shell are retained, along with end tabs and catch. Bump dimensions are photo-guided estimates; physical engagement remains unverified. [Rail close-up](Hisense_EN2A27_V2_Rail_Closeup.png). V1 downloads remain historical references.
+
 ## Apache 4800 full V4 — latest approved print package
 
 Use [Full V4: short liners and fixed ridges](Apache_4800_FULL_V4_Short_Liners_Fixed_Ridges_Print_Package.zip) for the approved latest CAD. It includes all four revised rigid sections, shifted Voltra cavities, fixed side dovetail positions, straight handle TPU pads, enlarged 87 × 73 mm charger cavities, and shortened square/cable-end TPU liners captured by rigid 45° ridges. Existing wire channels remain exposed above the liners.
