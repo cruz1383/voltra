@@ -2,6 +2,8 @@
 
 ## Hisense EN2A27 battery cover — V6 narrow teeth and open rear ledge
 
+**Rear geometry correction pending:** the V6 rear curve and catch are approximations and do not faithfully match the uploaded scan. [Original scan rear reference](Hisense_EN2A27_Original_Scan_Rear_Reference.png) and [direct scan sections](Hisense_EN2A27_Original_Scan_Rear_Sections.png) have now been extracted. These reference images are not revised printable files.
+
 Use [Rebuilt V6 print package](Hisense_EN2A27_Rebuilt_V6_Print_Package.zip) or [V6 STL](Hisense_EN2A27_Rebuilt_V6.stl). Inward tooth bases are narrowed from5.0 to2.5 mm, with a blunt0.8 mm nose. Confirmed2.16 mm combined section and16.07 mm shoulder offset remain. The rear catch is a thin ledge open underneath, with a rear root and angled end supports, replacing the closed frame. Body76.02 ×39.02 mm,2.20 mm shell and front tabs are retained. New tooth/ledge details are photo-guided estimates and physical fit is unverified. [Tooth close-up](Hisense_EN2A27_V6_Rail_Closeup.png) · [Rear ledge close-up](Hisense_EN2A27_V6_Rear_Ledge_Closeup.png). Earlier revisions remain historical references.
 
 ## Apache 4800 full V4 — latest approved print package
