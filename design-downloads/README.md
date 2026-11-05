@@ -1,10 +1,10 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V6 narrow teeth and open rear ledge
+## Hisense EN2A27 battery cover — V7 actual scan-based repair
 
-**Rear geometry correction pending:** the V6 rear curve and catch are approximations and do not faithfully match the uploaded scan. [Original scan rear reference](Hisense_EN2A27_Original_Scan_Rear_Reference.png) and [direct scan sections](Hisense_EN2A27_Original_Scan_Rear_Sections.png) have now been extracted. These reference images are not revised printable files.
+Use [V7 scan-based print package](Hisense_EN2A27_V7_Scan_Based_Print_Package.zip), [STL](Hisense_EN2A27_Scan_Based_V7.stl), or [3MF](Hisense_EN2A27_Scan_Based_V7.3mf). V7 retains the original scanned body, rear curve, integrated retaining lip and end tabs, with mesh cleanup and local inward rail repairs using the confirmed2.16 mm combined section and16.07 mm shoulder offset. It replaces the incorrect V1-V6 parametric rear approximations. Fine scan texture remains. Original scale is retained; overall including tabs is approximately79.12 ×39.11 ×8.91 mm.
 
-Use [Rebuilt V6 print package](Hisense_EN2A27_Rebuilt_V6_Print_Package.zip) or [V6 STL](Hisense_EN2A27_Rebuilt_V6.stl). Inward tooth bases are narrowed from5.0 to2.5 mm, with a blunt0.8 mm nose. Confirmed2.16 mm combined section and16.07 mm shoulder offset remain. The rear catch is a thin ledge open underneath, with a rear root and angled end supports, replacing the closed frame. Body76.02 ×39.02 mm,2.20 mm shell and front tabs are retained. New tooth/ledge details are photo-guided estimates and physical fit is unverified. [Tooth close-up](Hisense_EN2A27_V6_Rail_Closeup.png) · [Rear ledge close-up](Hisense_EN2A27_V6_Rear_Ledge_Closeup.png). Earlier revisions remain historical references.
+[Original versus repaired rear](Hisense_EN2A27_V7_Rear_Scan_Comparison.png) · [Rear profile overlay](Hisense_EN2A27_V7_Rear_Profile_Overlay.png) · [Full preview](Hisense_EN2A27_V7_Full_Preview.png). Mesh and source-conformity checks pass; printer-specific slicing and physical fit remain unverified. The3MF is geometry only, not pre-sliced. Prior files remain historical downloads.
 
 ## Apache 4800 full V4 — latest approved print package
 
