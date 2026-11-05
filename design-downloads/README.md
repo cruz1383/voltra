@@ -1,8 +1,8 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V4 measured rail/tooth geometry
+## Hisense EN2A27 battery cover — V5 inward blunt retaining wedges
 
-Use [Rebuilt V4 print package](Hisense_EN2A27_Rebuilt_V4_Print_Package.zip) or [V4 STL](Hisense_EN2A27_Rebuilt_V4.stl). Applies confirmed2.16 mm combined rail/tooth width and16.07 mm shoulder-to-tooth tip station, with continuous smooth-top rails and outward triangles. Body remains76.02 ×39.02 mm with nominal2.20 mm shell; overall width across revised tooth tips is41.02 mm with current rail positions. Remaining tooth length/height and rail shoulder placement are scan/photo estimates. Physical engagement remains unverified. [Rail close-up](Hisense_EN2A27_V4_Rail_Closeup.png). Earlier downloads remain historical references.
+Use [Rebuilt V5 print package](Hisense_EN2A27_Rebuilt_V5_Print_Package.zip) or [V5 STL](Hisense_EN2A27_Rebuilt_V5.stl). Corrects direction to INWARD and replaces pointed triangles with broader flat-ended wedges with rounded corners. Rails stay continuous with smooth tops. Combined rail/tooth section2.16 mm and shoulder offset16.07 mm are retained. Body76.02 ×39.02 mm,2.20 mm nominal shell, tabs and end catch remain unchanged; overall width is39.02 mm. New wedge nose/corner dimensions are estimated; physical fit remains unverified. [Rail close-up](Hisense_EN2A27_V5_Rail_Closeup.png). Earlier versions remain historical references.
 
 ## Apache 4800 full V4 — latest approved print package
 
