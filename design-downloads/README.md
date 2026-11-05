@@ -1,8 +1,8 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V5 inward blunt retaining wedges
+## Hisense EN2A27 battery cover — V6 narrow teeth and open rear ledge
 
-Use [Rebuilt V5 print package](Hisense_EN2A27_Rebuilt_V5_Print_Package.zip) or [V5 STL](Hisense_EN2A27_Rebuilt_V5.stl). Corrects direction to INWARD and replaces pointed triangles with broader flat-ended wedges with rounded corners. Rails stay continuous with smooth tops. Combined rail/tooth section2.16 mm and shoulder offset16.07 mm are retained. Body76.02 ×39.02 mm,2.20 mm nominal shell, tabs and end catch remain unchanged; overall width is39.02 mm. New wedge nose/corner dimensions are estimated; physical fit remains unverified. [Rail close-up](Hisense_EN2A27_V5_Rail_Closeup.png). Earlier versions remain historical references.
+Use [Rebuilt V6 print package](Hisense_EN2A27_Rebuilt_V6_Print_Package.zip) or [V6 STL](Hisense_EN2A27_Rebuilt_V6.stl). Inward tooth bases are narrowed from5.0 to2.5 mm, with a blunt0.8 mm nose. Confirmed2.16 mm combined section and16.07 mm shoulder offset remain. The rear catch is a thin ledge open underneath, with a rear root and angled end supports, replacing the closed frame. Body76.02 ×39.02 mm,2.20 mm shell and front tabs are retained. New tooth/ledge details are photo-guided estimates and physical fit is unverified. [Tooth close-up](Hisense_EN2A27_V6_Rail_Closeup.png) · [Rear ledge close-up](Hisense_EN2A27_V6_Rear_Ledge_Closeup.png). Earlier revisions remain historical references.
 
 ## Apache 4800 full V4 — latest approved print package
 
