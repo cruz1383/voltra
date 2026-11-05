@@ -1,10 +1,12 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — CAD rebuild under review
+## Hisense EN2A27 battery cover — V9 CAD review only
 
-**V8 is withdrawn. Do not print V8 or V7.** Both retained unacceptable surface or edge defects despite passing mesh and slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference.
+Review the [whole CAD model](Hisense_EN2A27_V9_Full_CAD_Review.png) and [attachment close-ups](Hisense_EN2A27_V9_Attachment_Details.png) before any STL export. The [CAD review package](Hisense_EN2A27_V9_CAD_Review_Package.zip) contains the [STEP solid](Hisense_EN2A27_V9_CAD_REVIEW.step), review images, notes and checks. **It contains no STL or machine instructions.**
 
-A full native CAD rebuild is being prepared for visual review of the whole shell, rails, inward teeth, and rear retaining ledge. No replacement STL will be supplied before that CAD review. Physical fit has not been verified.
+V9 is a new native CAD solid: smooth shell surfaces, rounded perimeter, continuous rails, blunt inward teeth, a smooth rear hook/ledge and open fork tabs. Scan data guide the curves without carrying the repaired scan mesh into the CAD. Reference body dimensions are 76.02 × 39.02 mm; overall including tabs is approximately 79.02 × 39.02 mm. Rail plus tooth is 2.16 mm across, with a tooth datum 16.07 mm forward of the scan shoulder reference. Small tooth/tab details and ledge end treatment remain estimates for visual review. The STEP reopens as one valid solid; physical fit and dimensional conformity remain unverified. Review notes describe the limits.
+
+**V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
 ## Apache 4800 full V4 — latest approved print package
 
