@@ -1,10 +1,10 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V7 actual scan-based repair
+## Hisense EN2A27 battery cover — replacement under validation
 
-Use [V7 scan-based print package](Hisense_EN2A27_V7_Scan_Based_Print_Package.zip), [STL](Hisense_EN2A27_Scan_Based_V7.stl), or [3MF](Hisense_EN2A27_Scan_Based_V7.3mf). V7 retains the original scanned body, rear curve, integrated retaining lip and end tabs, with mesh cleanup and local inward rail repairs using the confirmed2.16 mm combined section and16.07 mm shoulder offset. It replaces the incorrect V1-V6 parametric rear approximations. Fine scan texture remains. Original scale is retained; overall including tabs is approximately79.12 ×39.11 ×8.91 mm.
+**Do not use V7 for printing.** Its mesh closure checks passed, but the exported scan still contains distorted patches and damaged side edges. It has been withdrawn as the recommended version. Earlier V1–V6 versions also have incorrect approximations of the rear curve and retaining lip. Historical files remain available for reference.
 
-[Original versus repaired rear](Hisense_EN2A27_V7_Rear_Scan_Comparison.png) · [Rear profile overlay](Hisense_EN2A27_V7_Rear_Profile_Overlay.png) · [Full preview](Hisense_EN2A27_V7_Full_Preview.png). Mesh and source-conformity checks pass; printer-specific slicing and physical fit remain unverified. The3MF is geometry only, not pre-sliced. Prior files remain historical downloads.
+The replacement is being checked against the original scan and through an actual slicer run before another version is recommended. Physical fit has not yet been verified.
 
 ## Apache 4800 full V4 — latest approved print package
 
