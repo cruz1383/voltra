@@ -1,10 +1,14 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — replacement under validation
+## Hisense EN2A27 battery cover — V8 fit-test replacement
 
-**Do not use V7 for printing.** Its mesh closure checks passed, but the exported scan still contains distorted patches and damaged side edges. It has been withdrawn as the recommended version. Earlier V1–V6 versions also have incorrect approximations of the rear curve and retaining lip. Historical files remain available for reference.
+Download the [V8 print package](Hisense_EN2A27_V8_Fit_Test_Print_Package.zip), [STL (3.9 MB)](Hisense_EN2A27_Clean_V8.stl), or [geometry-only 3MF](Hisense_EN2A27_Clean_V8.3mf). V8 reconstructs the broad shell surfaces from the scan, retains the scanned rear curve and integrated lip, and replaces damaged side strips with continuous rails and small inward teeth. The rail-plus-tooth section is 2.16 mm; its tooth datum is 16.07 mm from the scanned shoulder. Fine rear scan texture remains, and small tooth/tab details are estimates.
 
-The replacement is being checked against the original scan and through an actual slicer run before another version is recommended. Physical fit has not yet been verified.
+[Model preview](Hisense_EN2A27_V8_Model_Preview.png) · [Rear comparison with the original scan](Hisense_EN2A27_V8_Rear_Scan_Comparison.png) · [Actual slicer toolpaths](Hisense_EN2A27_V8_Slice_Check.png).
+
+The exact STL completed a PrusaSlicer 2.8.1 slice with a 0.4 mm nozzle, 0.16 mm layers and supports. Mesh checks found one closed connected solid, consistent winding and zero self-intersecting faces; STL/3MF bounds and volumes match. Overall including tabs is 79.20 × 39.15 × 8.80 mm at the original scan scale. **This is a fit-test part: physical fit and latch engagement remain unverified.** Import at 100%, cavity upward, enable supports beneath the curved exterior and retaining features, and use your calibrated printer/material preset. Printing notes and validation details are in the package; no machine-ready G-code is supplied.
+
+**V7 is withdrawn for printing:** it retained distorted scan patches despite passing closure checks. V1–V6 have incorrect rear approximations. Historical files remain for reference; use V8 for the next fit test.
 
 ## Apache 4800 full V4 — latest approved print package
 
