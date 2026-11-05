@@ -1,8 +1,8 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V2 continuous rails
+## Hisense EN2A27 battery cover — V3 outward rail triangles
 
-Use [Rebuilt V2 print package](Hisense_EN2A27_Rebuilt_V2_Print_Package.zip) or [V2 STL](Hisense_EN2A27_Rebuilt_V2.stl). This corrects the mistaken rail gaps in V1: both rails are continuous with a small local raised bump. Measured body76.02 ×39.02 mm and nominal2.20 mm shell are retained, along with end tabs and catch. Bump dimensions are photo-guided estimates; physical engagement remains unverified. [Rail close-up](Hisense_EN2A27_V2_Rail_Closeup.png). V1 downloads remain historical references.
+Use [Rebuilt V3 print package](Hisense_EN2A27_Rebuilt_V3_Print_Package.zip) or [V3 STL](Hisense_EN2A27_Rebuilt_V3.stl). Both rails are continuous and their tops remain smooth, with a triangular projection off the outside face. This replaces V1 gaps and V2 top bulges. Measured body76.02 ×39.02 mm, nominal2.20 mm shell, end tabs and catch are retained. Triangle dimensions are photo-guided estimates; physical fit remains unverified. [Rail close-up](Hisense_EN2A27_V3_Rail_Closeup.png). V1/V2 downloads remain historical references.
 
 ## Apache 4800 full V4 — latest approved print package
 
