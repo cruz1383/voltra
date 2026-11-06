@@ -1,10 +1,12 @@
 # Printable design trials
 
-## Hisense EN2A27 battery cover — V9 CAD review only
+## Hisense EN2A27 battery cover — V10 flush rear CAD review only
 
-Review the [whole CAD model](Hisense_EN2A27_V9_Full_CAD_Review.png) and [attachment close-ups](Hisense_EN2A27_V9_Attachment_Details.png) before any STL export. The [CAD review package](Hisense_EN2A27_V9_CAD_Review_Package.zip) contains the [STEP solid](Hisense_EN2A27_V9_CAD_REVIEW.step), review images, notes and checks. **It contains no STL or machine instructions.**
+Review the [corrected rear close-up and section comparison](Hisense_EN2A27_V10_Flush_Rear_Detail.png) and [whole cover CAD views](Hisense_EN2A27_V10_Full_CAD_Review.png). The [CAD review package](Hisense_EN2A27_V10_Flush_Rear_CAD_Review_Package.zip) contains the [STEP solid](Hisense_EN2A27_V10_Flush_Rear_CAD_REVIEW.step), images, notes and checks. **No STL or machine instructions are included.**
 
-V9 is a new native CAD solid: smooth shell surfaces, rounded perimeter, continuous rails, blunt inward teeth, a smooth rear hook/ledge and open fork tabs. Scan data guide the curves without carrying the repaired scan mesh into the CAD. Reference body dimensions are 76.02 × 39.02 mm; overall including tabs is approximately 79.02 × 39.02 mm. Rail plus tooth is 2.16 mm across, with a tooth datum 16.07 mm forward of the scan shoulder reference. Small tooth/tab details and ledge end treatment remain estimates for visual review. The STEP reopens as one valid solid; physical fit and dimensional conformity remain unverified. Review notes describe the limits.
+The rear ledge is raised to the same top level as the curved rear rim. The ledge and rim share one flush top plane, with no independent ridge behind the ledge. Its rear root joins continuously into the curved wall, and clearance remains below the forward edge. The previous low saddle-shaped catch is removed. Other V9 features are retained. Section samples check the common top height and open underside; the STEP reopens as one valid solid. Ledge width, thickness and rounding remain proposed dimensions for review, and physical fit remains unverified.
+
+[V9 whole CAD](Hisense_EN2A27_V9_Full_CAD_Review.png) and [V9 attachment details](Hisense_EN2A27_V9_Attachment_Details.png) are the previous review, superseded at the rear by V10. Body reference dimensions remain 76.02 × 39.02 mm, combined rail/tooth width 2.16 mm, and tooth datum 16.07 mm from the scan shoulder reference.
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
