@@ -10,6 +10,16 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
+## Apache 4800 recessed inward capture — current CAD review
+
+Review the [revised pad, empty seat and horizontal side-lip cutaway](Apache_4800_Recessed_Inward_Capture_CAD_REVIEW.png). Blue highlights rigid material added inward across the existing recess opening; orange is the revised TPU pad, gray is the original rigid wall. The additions remain entirely behind the original wall face. There are no outward rails or top hooks.
+
+The opening is reduced from 73.03 to 70.94 mm, giving 1.53 mm centered capture per end with the nominal 74.00 mm pad, matching the other Voltra pads' nominal side capture. If the new pad instead prints at the user's previously measured 73.02 mm maximum length, the corresponding projected centered overlap would be about 1.04 mm per end; this is a dimensional estimate, not a retention-force or fit validation.
+
+The pad's mating side bevels are reprofiled for the narrower mouth with 0.15 mm longitudinal clearance per side at the wall-face plane. Its original outer envelope, 74 mm rear length, position and contact plane remain unchanged. Rigid TR/BL and matching TPU pads 16/17 form a revised set; do not assume the old pad bevels fit the new seat. The top stop, original rigid wall material, fixed dovetail positions, wire channels and all other components are preserved.
+
+[CAD checks](Apache_4800_Recessed_Inward_Capture_Validation.json) confirm four valid single solids, no seated rigid/TPU overlap, unchanged pad bounding envelopes, zero original rigid material removed and no outward projection. Physical insertion, retention, material shrinkage, handle clearance and printing remain untested. **Awaiting CAD review; no replacement STL, 3MF or machine instructions have been exported or published.** Original V4 remains the latest approved print package below. All earlier protruding-lip, top-hook and groove/rib proposals remain withdrawn.
+
 ## Apache 4800 original recessed handle retainers — current reference CAD
 
 The [original V4 CAD views](Apache_4800_V4_Original_Recessed_Handle_Retainers_CAD.png) show the uploaded STEP geometry without modification: handle-side pad installed, the same recessed seat with its pad hidden, and a cutaway through one original side lip. Orange is original TPU and gray is the original rigid insert. Hiding the pad and cutting the display are inspection views only, not model edits.

@@ -1,0 +1,37 @@
+{
+  "status": "CAD REVIEW only - no print exports",
+  "source": "Original uploaded V4 STEP",
+  "proposed_dimensions_mm": {
+    "seat_opening_before": 73.0333333333,
+    "seat_opening_after": 70.9441874542,
+    "pad_rear_length": 74,
+    "side_capture_nominal_per_end": 1.5279062728999975,
+    "side_capture_if_printed_at_73_02_per_end": 1.0379062728999955,
+    "inward_addition_per_end": 1.0445729395999948,
+    "pad_side_clearance_at_wall_face": 0.15
+  },
+  "checks": {
+    "rigid_TR": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_material_removed_mm3": 0.0
+    },
+    "TPU_Existing_TPU_16": {
+      "valid": true,
+      "solids": 1,
+      "seated_overlap_mm3": 0.0
+    },
+    "rigid_BL": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_material_removed_mm3": 0.0
+    },
+    "TPU_Existing_TPU_17": {
+      "valid": true,
+      "solids": 1,
+      "seated_overlap_mm3": 0.0
+    },
+    "no_outward_projection": true,
+    "pad_envelope_unchanged": true
+  }
+}
