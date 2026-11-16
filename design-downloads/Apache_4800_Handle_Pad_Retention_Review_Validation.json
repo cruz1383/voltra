@@ -1,0 +1,42 @@
+{
+  "status": "CAD review only; not physically fit tested",
+  "reference": "Uploaded Apache_4800_FULL_V4_Assembly.step",
+  "groove_width_mm": 4,
+  "groove_pitch_mm": 8,
+  "handle_pad_groove_depth_mm": 0.45,
+  "other_pad_reference_depth_mm": 2.45,
+  "remaining_TPU_skin_mm": 1.2,
+  "rib_clearance_mm": 0.2,
+  "changes": {
+    "TPU_Existing_TPU_16": {
+      "valid": true,
+      "solids": 1,
+      "volume_before_mm3": 3813.955504125739,
+      "volume_after_mm3": 3533.1555051462033,
+      "pad_envelope_added_mm3": 0.0,
+      "rigid_overlap_mm3": 0.0
+    },
+    "TPU_Existing_TPU_17": {
+      "valid": true,
+      "solids": 1,
+      "volume_before_mm3": 3813.955504126715,
+      "volume_after_mm3": 3533.1555051462105,
+      "pad_envelope_added_mm3": 0.0,
+      "rigid_overlap_mm3": 0.0
+    },
+    "rigid_TR": {
+      "valid": true,
+      "solids": 1,
+      "volume_before_mm3": 1543095.7675726102,
+      "volume_after_mm3": 1543315.79957261,
+      "original_rigid_removed_mm3": 0.0
+    },
+    "rigid_BL": {
+      "valid": true,
+      "solids": 1,
+      "volume_before_mm3": 1574688.6831084392,
+      "volume_after_mm3": 1574908.715108511,
+      "original_rigid_removed_mm3": 0.0
+    }
+  }
+}
