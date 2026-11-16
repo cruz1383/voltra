@@ -10,6 +10,14 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
+## Apache 4800 copied side retaining lips — current CAD review
+
+Review the [installed handle pad and side-lip cutaway](Apache_4800_Handle_Pad_Copied_Side_Lips_CAD.png). Blue highlights the extended side lips, orange is the unchanged original TPU, and gray is the original rigid body. Native side-lip BREP geometry was copied from the opposite Voltra pad seat (rigid TL), reflected and translated onto each handle-side seat without scaling or redrawing its edge profile. Both rigid TR and BL are revised.
+
+The reference side-lip depth is 2.3 mm versus the original handle-seat depth of 1.0 mm. The copied lips extend 1.3 mm beyond the original rigid face and 0.5 mm beyond the unchanged TPU contact plane at the sides. They span the pad's straight vertical edges, Z=44.5 to 70.7 mm. The original TPU geometry, positions, top stops, existing rigid walls, fixed dovetails and wire channels are unchanged. Existing rigid material is not removed.
+
+[CAD validation](Apache_4800_Handle_Pad_Copied_Side_Lips_Validation.json) verifies valid single rigid solids and no interference with the original TPU pads. The 0.5 mm projection at the side edges still needs a physical handle-clearance and retention check. These are modeled dimensions, not physical measurements. **This is a CAD review, not an approved print release. No replacement print files have been exported.** V4 remains the latest approved print package below. The added top hook and rear groove/rib proposals remain withdrawn; historical files are retained.
+
 ## Apache 4800 handle-side pad — original lip inspection
 
 The [current CAD view](Apache_4800_Handle_Pad_Original_Lip_Restored_CAD.png) shows the original uploaded V4 geometry with the proposed extra hook removed. Blue is only a color highlight of existing rigid material; it is not an added part or a new feature. Orange is the original TPU pad. The right panel is a cutaway of the existing continuous top stop.

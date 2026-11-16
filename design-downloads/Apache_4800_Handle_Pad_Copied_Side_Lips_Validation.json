@@ -1,0 +1,22 @@
+{
+  "status": "CAD review only; no replacement print exports",
+  "method": "Rigid TL reference side-lip BREP copied by reflection and translation, without scaling",
+  "unchanged": "All original TPU geometry, pad locations, top stop, original rigid material, dovetail positions and wire channels",
+  "measured": {
+    "reference_lip_depth_mm": 2.3,
+    "original_handle_depth_mm": 1.0,
+    "side_lip_extension_mm": 1.3,
+    "side_lip_span_z_mm": [
+      44.5,
+      70.7
+    ],
+    "copied_front_x_mm": 126.9375,
+    "pad_contact_x_mm": 127.4375,
+    "lip_proud_of_pad_contact_mm": 0.5
+  },
+  "valid_single_solids": true,
+  "rigid_removed_mm3": 0.0,
+  "pad_interference_mm3": 0.0,
+  "added_volume_TR_mm3": 188.54977530310862,
+  "notes": "Physical handle fit and retention remain untested; lips project 0.5 mm beyond the original pad contact plane only at its sides."
+}
