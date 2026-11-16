@@ -10,21 +10,13 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
-## Apache 4800 copied side retaining lips — current CAD review
+## Apache 4800 original recessed handle retainers — current reference CAD
 
-Review the [installed handle pad and side-lip cutaway](Apache_4800_Handle_Pad_Copied_Side_Lips_CAD.png). Blue highlights the extended side lips, orange is the unchanged original TPU, and gray is the original rigid body. Native side-lip BREP geometry was copied from the opposite Voltra pad seat (rigid TL), reflected and translated onto each handle-side seat without scaling or redrawing its edge profile. Both rigid TR and BL are revised.
+The [original V4 CAD views](Apache_4800_V4_Original_Recessed_Handle_Retainers_CAD.png) show the uploaded STEP geometry without modification: handle-side pad installed, the same recessed seat with its pad hidden, and a cutaway through one original side lip. Orange is original TPU and gray is the original rigid insert. Hiding the pad and cutting the display are inspection views only, not model edits.
 
-The reference side-lip depth is 2.3 mm versus the original handle-seat depth of 1.0 mm. The copied lips extend 1.3 mm beyond the original rigid face and 0.5 mm beyond the unchanged TPU contact plane at the sides. They span the pad's straight vertical edges, Z=44.5 to 70.7 mm. The original TPU geometry, positions, top stops, existing rigid walls, fixed dovetails and wire channels are unchanged. Existing rigid material is not removed.
+**Keep the original recessed design.** No added protrusions, hooks, grooves or ribs are present in this view. The protruding copied-side-lip proposal, extra top hook and rear groove/rib proposal are rejected and withdrawn. Do not manufacture them. Their historical images remain available: [protruding side-lip proposal](Apache_4800_Handle_Pad_Copied_Side_Lips_CAD.png), [extra top hook](Apache_4800_Handle_Pad_Matching_Lip_CAD.png), [groove/rib proposal](Apache_4800_Handle_Pad_Retention_Review_Detail.png), and [prior top-stop inspection](Apache_4800_Handle_Pad_Original_Lip_Restored_CAD.png).
 
-[CAD validation](Apache_4800_Handle_Pad_Copied_Side_Lips_Validation.json) verifies valid single rigid solids and no interference with the original TPU pads. The 0.5 mm projection at the side edges still needs a physical handle-clearance and retention check. These are modeled dimensions, not physical measurements. **This is a CAD review, not an approved print release. No replacement print files have been exported.** V4 remains the latest approved print package below. The added top hook and rear groove/rib proposals remain withdrawn; historical files are retained.
-
-## Apache 4800 handle-side pad — original lip inspection
-
-The [current CAD view](Apache_4800_Handle_Pad_Original_Lip_Restored_CAD.png) shows the original uploaded V4 geometry with the proposed extra hook removed. Blue is only a color highlight of existing rigid material; it is not an added part or a new feature. Orange is the original TPU pad. The right panel is a cutaway of the existing continuous top stop.
-
-Exact sections of the uploaded STEP show a 45-degree stop above both the opposite and handle-side Voltra pads. At Y=81 mm, the handle-side seat runs from (X=128.2375, Z=74.0) to (X=129.2375, Z=73.0); the opposite seat runs from (X=-207.7625, Z=97.0) to (X=-210.0625, Z=94.7). These are different-sized existing stops with the same 45-degree profile. No new retaining feature has been added in this restored inspection view. Physical retention remains untested; any still-missing feature must be identified before a new modification is claimed.
-
-**The added-lip/hook and groove/rib proposals below are rejected and withdrawn. Do not manufacture them.** Their images remain as history: [added lip](Apache_4800_Handle_Pad_Matching_Lip_CAD.png), [groove/rib proposal](Apache_4800_Handle_Pad_Retention_Review_Detail.png). No replacement print files were published for those proposals. The original V4 package below remains the latest approved print package.
+No new model revision or replacement print files are published here. The original V4 package below remains the latest approved print package. Physical fit and retention remain untested.
 
 ## Apache 4800 full V4 — latest approved print package
 
