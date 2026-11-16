@@ -1,0 +1,29 @@
+{
+  "status": "Sloped lip CAD review; no print exports",
+  "TPU_pads": "All original TPU parts unchanged",
+  "lip": {
+    "style": "Continuous fixed top stop with 45 degree underside",
+    "width_mm": 65,
+    "projection_from_rigid_face_mm": 0.35,
+    "setback_from_TPU_contact_plane_mm": 0.45,
+    "top_z_mm": 77,
+    "pad_top_z_mm": 73.7,
+    "nominal_vertical_chamfer_clearance_mm": 0.2
+  },
+  "changes": {
+    "rigid_TR": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_removed_mm3": 0.0,
+      "material_added_mm3": 73.04374999692664,
+      "original_pad_overlap_mm3": 0.0
+    },
+    "rigid_BL": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_removed_mm3": 0.0,
+      "material_added_mm3": 73.04375007003546,
+      "original_pad_overlap_mm3": 0.0
+    }
+  }
+}

@@ -10,15 +10,15 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
-## Apache 4800 handle-pad retainers — current CAD review
+## Apache 4800 handle-pad retaining lip — current CAD review
 
-Review the [modified pad and mating rigid seat](Apache_4800_Handle_Pad_Retention_Review_Detail.png) and [assembly locations](Apache_4800_Handle_Pad_Retention_Review_Assembly.png). This revision retains TPU pads 16 and 17 in the rigid insert; it does not add a Voltra-gripping lip.
+Review the [installed pad and top-lip cutaway](Apache_4800_Handle_Pad_Matching_Lip_CAD.png). Orange is the original TPU pad, gray is the original rigid section, and blue highlights the added continuous retaining lip. Both handle-side pads remain exactly as uploaded; only rigid TR and BL receive the mirrored top-stop additions. This uses the continuous fixed sloped-stop style shown in the earlier straight-pad CAD, rather than the rejected rear groove/rib proposal.
 
-The groove width (4 mm) and pitch (8 mm) match the other Voltra pads. Groove depth is adapted to 0.45 mm for the original 1.65 mm handle pads, retaining a 1.2 mm face skin; it is not the 2.45 mm depth of the thicker reference pads. Eight mating rigid ribs per seat have 0.2 mm CAD clearance. These are modeled dimensions, not measurements of printed parts.
+Modeled lip dimensions: 65 mm span, 0.35 mm projection from the rigid face, 0.45 mm setback behind the TPU contact plane, top at Z=77 mm and 45-degree underside following the original pad chamfer with 0.2 mm vertical clearance. These are CAD design dimensions; printed fit, retention force and strength remain untested. [Validation](Apache_4800_Handle_Pad_Matching_Lip_Validation.json) confirms valid single rigid solids, zero original wall material removed and zero interference with the unchanged original pads. Existing cavity geometry, pad positions, dovetails, wire channels and remaining parts are preserved.
 
-The revised parts are TPU pads 16/17 and rigid TR/BL. Original pad envelopes, contact planes, dovetail positions, rigid wall material and wire channels are preserved. All other components retain their V4 geometry. [CAD validation](Apache_4800_Handle_Pad_Retention_Review_Validation.json) confirms four valid single solids, no pad-to-seat overlap, and zero original rigid material removed. Physical retention and print performance remain untested.
+**CAD review only. No replacement print files have been exported or published for this revision.** V4 below remains the latest approved print package.
 
-**Awaiting CAD review. No replacement STL, 3MF or machine instructions have been published for this revision.** V4 below remains the latest approved print package. Historical files are preserved.
+The earlier [groove/rib close-up](Apache_4800_Handle_Pad_Retention_Review_Detail.png), [assembly view](Apache_4800_Handle_Pad_Retention_Review_Assembly.png) and validation remain historical records of a **rejected proposal; do not use them for production**.
 
 ## Apache 4800 full V4 — latest approved print package
 
