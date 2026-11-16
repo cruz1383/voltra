@@ -10,15 +10,13 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
-## Apache 4800 handle-pad retaining lip — current CAD review
+## Apache 4800 handle-side pad — original lip inspection
 
-Review the [installed pad and top-lip cutaway](Apache_4800_Handle_Pad_Matching_Lip_CAD.png). Orange is the original TPU pad, gray is the original rigid section, and blue highlights the added continuous retaining lip. Both handle-side pads remain exactly as uploaded; only rigid TR and BL receive the mirrored top-stop additions. This uses the continuous fixed sloped-stop style shown in the earlier straight-pad CAD, rather than the rejected rear groove/rib proposal.
+The [current CAD view](Apache_4800_Handle_Pad_Original_Lip_Restored_CAD.png) shows the original uploaded V4 geometry with the proposed extra hook removed. Blue is only a color highlight of existing rigid material; it is not an added part or a new feature. Orange is the original TPU pad. The right panel is a cutaway of the existing continuous top stop.
 
-Modeled lip dimensions: 65 mm span, 0.35 mm projection from the rigid face, 0.45 mm setback behind the TPU contact plane, top at Z=77 mm and 45-degree underside following the original pad chamfer with 0.2 mm vertical clearance. These are CAD design dimensions; printed fit, retention force and strength remain untested. [Validation](Apache_4800_Handle_Pad_Matching_Lip_Validation.json) confirms valid single rigid solids, zero original wall material removed and zero interference with the unchanged original pads. Existing cavity geometry, pad positions, dovetails, wire channels and remaining parts are preserved.
+Exact sections of the uploaded STEP show a 45-degree stop above both the opposite and handle-side Voltra pads. At Y=81 mm, the handle-side seat runs from (X=128.2375, Z=74.0) to (X=129.2375, Z=73.0); the opposite seat runs from (X=-207.7625, Z=97.0) to (X=-210.0625, Z=94.7). These are different-sized existing stops with the same 45-degree profile. No new retaining feature has been added in this restored inspection view. Physical retention remains untested; any still-missing feature must be identified before a new modification is claimed.
 
-**CAD review only. No replacement print files have been exported or published for this revision.** V4 below remains the latest approved print package.
-
-The earlier [groove/rib close-up](Apache_4800_Handle_Pad_Retention_Review_Detail.png), [assembly view](Apache_4800_Handle_Pad_Retention_Review_Assembly.png) and validation remain historical records of a **rejected proposal; do not use them for production**.
+**The added-lip/hook and groove/rib proposals below are rejected and withdrawn. Do not manufacture them.** Their images remain as history: [added lip](Apache_4800_Handle_Pad_Matching_Lip_CAD.png), [groove/rib proposal](Apache_4800_Handle_Pad_Retention_Review_Detail.png). No replacement print files were published for those proposals. The original V4 package below remains the latest approved print package.
 
 ## Apache 4800 full V4 — latest approved print package
 
