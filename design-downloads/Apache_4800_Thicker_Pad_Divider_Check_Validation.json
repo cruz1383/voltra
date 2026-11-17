@@ -1,0 +1,31 @@
+{
+  "status": "CAD TRIAL ONLY - divider section is reduced; not recommended as a no-weakening replacement",
+  "profile": "Reference-style 3.65 mm pad, 1.15 mm front stem, 2.5 mm flared rear with 0.15 mm rounded seat roots",
+  "dimensions_mm": {
+    "pad_thickness": 3.65,
+    "pad_back_length": 74,
+    "front_contact_width": 70,
+    "seat_throat_width": 70.94418745424596,
+    "side_capture_per_end": 1.5279062728770185,
+    "divider_web_before": 3.112499999999983,
+    "divider_web_after": 1.112499999999983,
+    "web_loss": 2.0
+  },
+  "wall_measurement": {
+    "section_y": 60,
+    "section_z": 55,
+    "before_interval": [
+      129.2375,
+      132.35
+    ],
+    "after_interval": [
+      131.2375,
+      132.35
+    ]
+  },
+  "checks": {
+    "four_valid_single_solids": true,
+    "seated_overlap_mm3": 0
+  },
+  "limitations": "Geometric thickness check only, no structural analysis or physical test. Preserving the original contact plane uses 2 mm of the divider web. Original V4 wire channels and other parts are unchanged. No print exports."
+}

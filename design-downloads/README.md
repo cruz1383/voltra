@@ -10,7 +10,15 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
-## Apache 4800 smooth recessed dovetail — current CAD review
+## Apache 4800 thicker matching pad — divider check CAD trial
+
+See the [installed pad, matching side-lip section and divider cutaway](Apache_4800_Thicker_Pad_Divider_Check_CAD_TRIAL.png). Orange is TPU, gray is the rigid seat, and red marks the remaining divider web. The trial uses the other pads' 3.65 mm thickness, 1.15 mm front stem, 2.5 mm flared rear, 0.15 mm rounded seat roots and rear-relief pattern, adapted to the handle seat's 74 mm rear length and 32.2 mm height. The original contact plane is retained and no outward lips are added. Nominal side capture is 1.53 mm per end.
+
+**This does not meet the request to preserve the divider section.** At Y=60 mm, Z=55 mm, the original web spans X=129.2375 to 132.35 mm (3.1125 mm). The deepened seat leaves X=131.2375 to 132.35 mm (1.1125 mm): a 2 mm loss. [Validation](Apache_4800_Thicker_Pad_Divider_Check_Validation.json) records the exact sections and confirms four valid single solids and no seated TPU/rigid overlap. Geometric validity is not proof of strength. No structural simulation, physical fit, retention or printing is verified.
+
+The mirrored TR/BL seats and pads 16/17 are trial models only. Original V4 wire channels and all other parts are retained. **Not recommended as a replacement that preserves wall strength. No replacement print files have been exported or published.** V4 remains the latest approved print package. Additional divider space or another layout change would be needed before this thicker arrangement could retain the original web thickness.
+
+## Earlier thin-pad option — smooth recessed dovetail CAD review
 
 Review the [installed pad, empty seat and horizontal cutaway](Apache_4800_Smooth_Recessed_Dovetail_CAD_REVIEW.png). Normal material colors are used: gray rigid seat and orange TPU. The front stem of each pad is now straight, followed by a continuous flared rear, following the same general dovetail arrangement as the other pads. The pinched neck in the previous inward-capture proposal is removed. Dimensions remain adapted to the thinner handle pads; this is not an identical-thickness copy of the other pads.
 
