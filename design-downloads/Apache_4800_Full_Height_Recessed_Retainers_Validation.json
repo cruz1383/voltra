@@ -1,0 +1,44 @@
+{
+  "status": "CAD REVIEW only - no print exports",
+  "profile": "Thin smooth recessed dovetail with side retainers extending over the full 32.2 mm pad height",
+  "retainer_z_mm": [
+    41.5,
+    73.7
+  ],
+  "source": "Original uploaded V4 STEP",
+  "proposed_dimensions_mm": {
+    "seat_opening_before": 73.0333333333,
+    "seat_opening_after": 71.30000000000001,
+    "pad_rear_length": 74,
+    "side_capture_nominal_per_end": 1.3499999999999979,
+    "side_capture_if_printed_at_73_02_per_end": 0.8599999999999959,
+    "inward_addition_per_end": 0.8666666666999987,
+    "pad_side_clearance_at_wall_face": 0.15
+  },
+  "checks": {
+    "rigid_TR": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_material_removed_mm3": 0.0
+    },
+    "TPU_Existing_TPU_16": {
+      "valid": true,
+      "solids": 1,
+      "seated_overlap_mm3": 0.0
+    },
+    "rigid_BL": {
+      "valid": true,
+      "solids": 1,
+      "original_rigid_material_removed_mm3": 0.0
+    },
+    "TPU_Existing_TPU_17": {
+      "valid": true,
+      "solids": 1,
+      "seated_overlap_mm3": 0.0
+    },
+    "no_outward_projection": true,
+    "pad_envelope_unchanged": true,
+    "divider_web_at_Y60_Z55_mm": 3.112499999999983,
+    "divider_web_preserved": true
+  }
+}

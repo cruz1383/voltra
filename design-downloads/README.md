@@ -10,6 +10,16 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
+## Apache 4800 full-height recessed retainers — current CAD review
+
+Review the [installed pad, continuous empty seat and side-lip cutaway](Apache_4800_Full_Height_Recessed_Retainers_CAD_REVIEW.png). This returns to the previous thin, smooth recessed-dovetail version: 1.65 mm TPU pad, 74 mm rear length, straight front stem, flared rear, and 71.30 mm seat opening. Gray is the rigid insert and orange is the matching TPU. There are no outward rails, hooks or deeper thick-pad pockets.
+
+Both side retainers now span the full pad height, Z=41.5 to 73.7 mm (32.2 mm), instead of Z=44.5 to 70.7 mm (26.2 mm). This extends capture to the bottom and top of each seat, rather than only its middle. Nominal centered side overlap remains 1.35 mm per end; if the revised pad instead prints at the previously measured 73.02 mm length, projected overlap is 0.86 mm per end, which is not a physical retention validation.
+
+The revised set is rigid TR/BL and matching smooth-profile TPU pads 16/17. The TPU shape is unchanged from the earlier thin smooth-profile proposal; this change extends only the rigid side-retainer coverage. The original pad envelopes, contact planes, rigid material, top stops, fixed dovetails and wire channels are preserved. [CAD validation](Apache_4800_Full_Height_Recessed_Retainers_Validation.json) checks four valid single solids, no seated overlap, no outward projection, and unchanged 3.1125 mm divider web at Y=60/Z=55 mm.
+
+**Awaiting CAD review. Physical installation, retention, shrinkage and printing remain untested. No replacement print files are exported or published.** V4 remains the latest approved print package. This supersedes the [partial-height smooth version](Apache_4800_Smooth_Recessed_Dovetail_CAD_REVIEW.png); historical files remain available. The thicker-pad trial below is not used because it reduced the divider web.
+
 ## Apache 4800 thicker matching pad — divider check CAD trial
 
 See the [installed pad, matching side-lip section and divider cutaway](Apache_4800_Thicker_Pad_Divider_Check_CAD_TRIAL.png). Orange is TPU, gray is the rigid seat, and red marks the remaining divider web. The trial uses the other pads' 3.65 mm thickness, 1.15 mm front stem, 2.5 mm flared rear, 0.15 mm rounded seat roots and rear-relief pattern, adapted to the handle seat's 74 mm rear length and 32.2 mm height. The original contact plane is retained and no outward lips are added. Nominal side capture is 1.53 mm per end.
