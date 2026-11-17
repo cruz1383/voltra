@@ -10,7 +10,21 @@ The V10 body, rails, inward teeth, front tabs and rib are retained. Previous [V1
 
 **V8 and V7 are withdrawn. Do not print them.** They retained unacceptable surface or edge defects despite passing mesh/slicing checks. V1–V6 also have incorrect rear approximations. Historical files remain for reference. No replacement STL will be supplied before CAD review.
 
-## Apache 4800 full-height recessed retainers — current CAD review
+## Apache 4800 full V5 — latest CAD-approved STL release
+
+Download the [BL/TR + handle-pad update](Apache_4800_V5_Handle_Retainers_BL_TR_TPU_Update.zip) to update an existing matching FULL V4 set. Reprint **BL x1, TR x1 and the revised handle pad x2**. These three STL files form a matched update; the other six V4 STL files are unchanged and may be reused. The handle-pad profile changed, so do not substitute an old handle pad merely because its outer dimensions look the same.
+
+The [complete full V5 package](Apache_4800_FULL_V5_Full_Height_Handle_Retainers_Print_Package.zip) contains all nine unique STLs for 20 physical parts, quantities, the revised colored assembly STEP, [approved CAD preview](Apache_4800_Full_Height_Recessed_Retainers_CAD_REVIEW.png), revised BREP solids, export source, CAD/mesh validation and internal checksums. The six unchanged STL files are byte-identical to FULL V4. [Download SHA-256 checksums](Apache_4800_V5_SHA256SUMS.txt) cover both ZIPs.
+
+V5 implements the approved thin 1.65 mm smooth recessed pad and **full 32.2 mm side-retainer height**, rather than only the central 26.2 mm. Recess opening is 71.30 mm with 1.35 mm nominal side capture per end for the 74 mm rear. No outward rails, hooks or deeper thick-pad pocket. The checked divider web stays 3.1125 mm; existing wall material, fixed dovetail positions and wire channels are preserved.
+
+**Handle pads are preoriented WIDE REAR FACE DOWN, contact face UP. Keep this supplied orientation.** Rigid sections remain bottom-down. Import at 100% scale; no shrinkage compensation is baked in. Nominal handle STL dimensions are 32.2 x 74.0 x 1.65 mm. Measure cooled parts and check fit: previous 73.02 mm printing variation is not a new design dimension.
+
+All nine STL meshes pass closure/manifold edges, consistent winding, single connected component, positive volume, nondegenerate faces, on-bed bounds, dimensional bed fit and CAD-volume checks. Their supplied orientations pass a 46-degree geometric overhang audit; front-face-down does not pass for the revised handle bevel. The STEP reopens as 20 valid solids. **Printer-specific slicing, physical fit, insertion force, retention, creep and transport performance remain unverified.** CAD approval and mesh checks do not establish print readiness by themselves; inspect your actual slice preview and test the matched parts.
+
+V5 supersedes V4 for the handle-seat revision. Historical files are preserved. The CAD-review sections below record earlier stages; their pending-review/no-export statements refer to those stages. Rejected protruding-lip, top-hook, rib and thin-divider trials are not used in these STL exports.
+
+## Apache 4800 full-height recessed retainers — approved CAD reference
 
 Review the [installed pad, continuous empty seat and side-lip cutaway](Apache_4800_Full_Height_Recessed_Retainers_CAD_REVIEW.png). This returns to the previous thin, smooth recessed-dovetail version: 1.65 mm TPU pad, 74 mm rear length, straight front stem, flared rear, and 71.30 mm seat opening. Gray is the rigid insert and orange is the matching TPU. There are no outward rails, hooks or deeper thick-pad pockets.
 
@@ -18,7 +32,7 @@ Both side retainers now span the full pad height, Z=41.5 to 73.7 mm (32.2 mm), i
 
 The revised set is rigid TR/BL and matching smooth-profile TPU pads 16/17. The TPU shape is unchanged from the earlier thin smooth-profile proposal; this change extends only the rigid side-retainer coverage. The original pad envelopes, contact planes, rigid material, top stops, fixed dovetails and wire channels are preserved. [CAD validation](Apache_4800_Full_Height_Recessed_Retainers_Validation.json) checks four valid single solids, no seated overlap, no outward projection, and unchanged 3.1125 mm divider web at Y=60/Z=55 mm.
 
-**Awaiting CAD review. Physical installation, retention, shrinkage and printing remain untested. No replacement print files are exported or published.** V4 remains the latest approved print package. This supersedes the [partial-height smooth version](Apache_4800_Smooth_Recessed_Dovetail_CAD_REVIEW.png); historical files remain available. The thicker-pad trial below is not used because it reduced the divider web.
+**Awaiting CAD review. Physical installation, retention, shrinkage and printing remain untested. No replacement print files are exported or published.** V4 is the historical print baseline; use the V5 release above for the current files. This supersedes the [partial-height smooth version](Apache_4800_Smooth_Recessed_Dovetail_CAD_REVIEW.png); historical files remain available. The thicker-pad trial below is not used because it reduced the divider web.
 
 ## Apache 4800 thicker matching pad — divider check CAD trial
 
@@ -26,7 +40,7 @@ See the [installed pad, matching side-lip section and divider cutaway](Apache_48
 
 **This does not meet the request to preserve the divider section.** At Y=60 mm, Z=55 mm, the original web spans X=129.2375 to 132.35 mm (3.1125 mm). The deepened seat leaves X=131.2375 to 132.35 mm (1.1125 mm): a 2 mm loss. [Validation](Apache_4800_Thicker_Pad_Divider_Check_Validation.json) records the exact sections and confirms four valid single solids and no seated TPU/rigid overlap. Geometric validity is not proof of strength. No structural simulation, physical fit, retention or printing is verified.
 
-The mirrored TR/BL seats and pads 16/17 are trial models only. Original V4 wire channels and all other parts are retained. **Not recommended as a replacement that preserves wall strength. No replacement print files have been exported or published.** V4 remains the latest approved print package. Additional divider space or another layout change would be needed before this thicker arrangement could retain the original web thickness.
+The mirrored TR/BL seats and pads 16/17 are trial models only. Original V4 wire channels and all other parts are retained. **Not recommended as a replacement that preserves wall strength. No replacement print files have been exported or published.** V4 is the historical print baseline; use the V5 release above for the current files. Additional divider space or another layout change would be needed before this thicker arrangement could retain the original web thickness.
 
 ## Earlier thin-pad option — smooth recessed dovetail CAD review
 
@@ -36,7 +50,7 @@ The opening is eased back to 71.30 mm from the earlier 70.94 mm proposal. The no
 
 Both handle-side rigid seats and matching TPU bevels are revised. The original pad envelopes and contact planes, original rigid wall material, top stops, fixed dovetails and wire channels are preserved. The lips remain entirely behind the existing rigid face. [CAD validation](Apache_4800_Smooth_Recessed_Dovetail_Validation.json) checks valid single solids, no seated overlap, unchanged pad envelopes and no outward projection. Use the revised pads and seats as a matched set after review.
 
-**Awaiting CAD review; no replacement print files have been exported or published.** V4 remains the latest approved print package. The [more pronounced inward-capture proposal](Apache_4800_Recessed_Inward_Capture_CAD_REVIEW.png) and its [checks](Apache_4800_Recessed_Inward_Capture_Validation.json) are superseded by this smoother proposal; files are retained as history.
+**Awaiting CAD review; no replacement print files have been exported or published.** V4 is the historical print baseline; use the V5 release above for the current files. The [more pronounced inward-capture proposal](Apache_4800_Recessed_Inward_Capture_CAD_REVIEW.png) and its [checks](Apache_4800_Recessed_Inward_Capture_Validation.json) are superseded by this smoother proposal; files are retained as history.
 
 ## Apache 4800 original recessed handle retainers — current reference CAD
 
@@ -46,9 +60,9 @@ The [original V4 CAD views](Apache_4800_V4_Original_Recessed_Handle_Retainers_CA
 
 No new model revision or replacement print files are published here. The original V4 package below remains the latest approved print package. Physical fit and retention remain untested.
 
-## Apache 4800 full V4 — latest approved print package
+## Apache 4800 full V4 — historical, superseded by V5
 
-Use [Full V4: short liners and fixed ridges](Apache_4800_FULL_V4_Short_Liners_Fixed_Ridges_Print_Package.zip) for the approved latest CAD. It includes all four revised rigid sections, shifted Voltra cavities, fixed side dovetail positions, straight handle TPU pads, enlarged 87 × 73 mm charger cavities, and shortened square/cable-end TPU liners captured by rigid 45° ridges. Existing wire channels remain exposed above the liners.
+Use [Full V4: short liners and fixed ridges](Apache_4800_FULL_V4_Short_Liners_Fixed_Ridges_Print_Package.zip) as the historical baseline; use V5 above for the current handle-retainer revision. It includes all four revised rigid sections, shifted Voltra cavities, fixed side dovetail positions, straight handle TPU pads, enlarged 87 × 73 mm charger cavities, and shortened square/cable-end TPU liners captured by rigid 45° ridges. Existing wire channels remain exposed above the liners.
 
 There are **9 unique STL files; print 20 total parts** using the included quantities. Files are already oriented. All meshes passed closure, winding, bed-fit and geometry overhang checks; printer-specific slicing and full-size physical fit remain unverified. Use the four rigid sections and matching shortened liners from this package. Historical files and concept CAD downloads remain available below.
 
